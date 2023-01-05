@@ -8,7 +8,7 @@ int main() {
     int attempt = 0;    // number of questions to attempt
     cout << "Enter the value of n: ";
     cin >> n;
-    int arr[n][3];      // 2d array to store the line number and array
+    bool arr[n][3];      // 2d array to store the line number and array
     if(n < 1 || n > 1000) {
         cout << "Invalid number of problems given.\n";
         return 0;
