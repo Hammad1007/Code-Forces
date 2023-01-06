@@ -14,12 +14,10 @@ int main() {
     else {
         if(f_loc == 1 || f_loc == 2 || f_loc == 3 || f_loc == 4 || f_loc == 5) {
             steps = 1;
-            cout << "Minimum steps needed are: " << steps << endl;
         }
         else {
             if(f_loc % 5 == 0) {
                 steps = f_loc / 5;
-                cout << "Minimum steps needed are: " << steps << endl;
             }
             else {
                 int temp = f_loc % 5;
@@ -28,10 +26,10 @@ int main() {
                 }
                 f_loc = f_loc - temp;
                 steps = steps + (f_loc / 5);
-                cout << "Minimum steps needed are: " << steps << endl;
             }
         }
     }
+    cout << "Minimum steps needed are: " << steps << endl;
     system("Pause");
     return 0;
 }
