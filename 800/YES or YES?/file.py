@@ -1,3 +1,5 @@
+# https://codeforces.com/problemset/problem/1703/A
+
 def compare(s):
   if len(s) < 3 or len(s) > 3:
     print("Invalid.\n")
