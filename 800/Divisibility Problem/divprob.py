@@ -1,4 +1,4 @@
-
+# https://codeforces.com/problemset/problem/1328/A
 
 def divisibleby(x, y):
   if x % y == 0:
