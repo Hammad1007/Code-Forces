@@ -1,7 +1,7 @@
-# 
+# https://codeforces.com/problemset/problem/200/B
 
-a = []
-sum = 0
+a = []      # empty array list
+sum = 0     # stores the sum of array elements in it
 n = int(input("Number of elements in array:"))
 for i in range(0,n):
    l = int(input())
@@ -14,4 +14,4 @@ print("The sum is: ", sum)
 temp = n * 100
 val = sum % temp
 val1 = val / n
-print("Percentage: ", val1)
+print("Percentage: ", val1)      # calculate the percentage
