@@ -10,4 +10,4 @@ I will be solving maximum number of questions available on the website. The main
 <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg"  title="C++" alt="C++" width="40" height="40"/>&nbsp;
 
 ### 🧔 Contributors
- Hammad Rashid
+ - 👨 Hammad Rashid
