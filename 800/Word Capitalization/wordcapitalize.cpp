@@ -3,15 +3,6 @@
 #include <iostream>
 using namespace std;
 
-// Find the length of the character array
-int length(char arr[1000]) {
-    int len = 0;
-    for(int i = 0; arr[i] != '\0'; i++) {
-        len++;
-    }
-    return len;
-}
-
 // Input
 void Input(char arr[1000], int n) {
     for(int i = 0; i < n; i++) {
