@@ -22,9 +22,8 @@ int main() {
         sum = sum + arr[i];
     }
     int temp_n = n * 100;
-    int ans = sum % temp_n;
+    float ans = sum % temp_n;
     float ans1 = ans / n;
-    //cout << (ans % n) * 10 << endl;
     cout << "Percentage: " << ans1;
     return 0;
 }
