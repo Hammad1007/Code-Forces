@@ -1,6 +1,22 @@
 // https://codeforces.com/problemset/problem/266/A
+
+
 #include <iostream>
 using namespace std;
+
+int Length(char arr[50]) {
+    int len = 0, i = 0;
+    while(arr[i] != '\0') {
+        len++;
+    }
+    return len;
+}
+
+void Swap(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
 
 // Main driver
 int main() {
@@ -14,7 +30,7 @@ int main() {
         cout << "Enter the data at index " << i << ": ";
         cin >> arr[i];
     }
-    cout << "The array is: " << arr << endl;
+    cout << "The array is: ";
     for(int i = 0; i < n; i++) {
         cout << arr[i];
     }
@@ -28,6 +44,7 @@ int main() {
             }
         }
     }
+    cout << "The array is: ";
     for(int i = 0; i < n; i++) {
         cout << arr[i];
     }
