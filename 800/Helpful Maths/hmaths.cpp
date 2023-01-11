@@ -1,6 +1,4 @@
 // https://codeforces.com/problemset/problem/266/A
-
-
 #include <iostream>
 using namespace std;
 
