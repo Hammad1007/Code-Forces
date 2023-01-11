@@ -1,7 +1,5 @@
 // https://codeforces.com/problemset/problem/339/A
 
-// https://codeforces.com/problemset/problem/266/A
-
 #include <stdio.h>
 
 // Main driver
