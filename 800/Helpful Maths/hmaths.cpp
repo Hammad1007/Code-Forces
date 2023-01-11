@@ -1,0 +1,52 @@
+// https://codeforces.com/problemset/problem/266/A
+
+
+#include <iostream>
+using namespace std;
+
+int Length(char arr[50]) {
+    int len = 0, i = 0;
+    while(arr[i] != '\0') {
+        len++;
+    }
+    return len;
+}
+
+void Swap(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+// Main driver
+int main() {
+    char arr[50]; 
+    int n;
+    cout << "Enter the size: ";
+    cin >> n;
+
+    cout << "Enter the string: ";
+    for(int i = 0; i < n; i++) {
+        cout << "Enter the data at index " << i << ": ";
+        cin >> arr[i];
+    }
+    cout << "The array is: " << arr << endl;
+    for(int i = 0; i < n; i++) {
+        cout << arr[i];
+    }
+    // cout << "The length: " << n << endl;
+    for(int i = 0; i < n; i = i + 2) {
+        for(int j = i + 2; j < n; j = j + 2) {
+            if(arr[i] > arr[j]) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    for(int i = 0; i < n; i++) {
+        cout << arr[i];
+    }
+
+    return 0;
+}
