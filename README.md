@@ -18,4 +18,7 @@ I will be solving maximum number of questions available on the website. The main
  <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg"  title="Pycharm" alt="PyC" width="40" height="40"/>&nbsp;
  <img src="https://miro.medium.com/max/256/0*zNcjWYiZcJgreZAs.png"  title="Colab" alt="Googlecolab" width="60" height="49"/>&nbsp;
 
-### :mag: Observations
+### :mag: Observations and Suggestions
+- ✅ To write a code from C++ to C or vice versa, you cannot only change the input output statements. There are several other changes as well.
+- ✅ To access an array's elements individually, you need to take input in array one by one
+- ✅ To make the code more refined, make functions
