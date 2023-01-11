@@ -17,6 +17,7 @@ I will be solving maximum number of questions available on the website. The main
  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg"  title="VScode" alt="VSC" width="40" height="40"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg"  title="Pycharm" alt="PyC" width="40" height="40"/>&nbsp;
  <img src="https://miro.medium.com/max/256/0*zNcjWYiZcJgreZAs.png"  title="Colab" alt="Googlecolab" width="60" height="52"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg"  title="VS" alt="VS" width="40" height="40"/>&nbsp;
 
 ### :mag: Observations and Suggestions
 - ✅ To write a code from C++ to C or vice versa, you cannot only change the input output statements. There are several other changes as well.
