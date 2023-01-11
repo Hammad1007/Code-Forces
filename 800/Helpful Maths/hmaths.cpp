@@ -4,20 +4,6 @@
 #include <iostream>
 using namespace std;
 
-int Length(char arr[50]) {
-    int len = 0, i = 0;
-    while(arr[i] != '\0') {
-        len++;
-    }
-    return len;
-}
-
-void Swap(int a, int b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-
 // Main driver
 int main() {
     char arr[50]; 
