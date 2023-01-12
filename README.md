@@ -22,8 +22,8 @@ We will be solving maximum number of questions available on the website. The mai
  <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg"  title="VS" alt="VS" width="40" height="40"/>&nbsp;
 
 ### :mag: Observations and Suggestions
-- 👉 To write a code from C++ to C or vice versa, changing the library files and inputoutput is not sufficient.
-- 👉 To access an array's elements individually, you need to take input in array one by one.
-- 👉 To make the code more refined, make functions.
-- 👉 For better code, visualize the situation given in the question.
-- 👉 It's better to code slow than to code fast.
+     👉 To write a code from C++ to C or vice versa, changing the library files and inputoutput is not sufficient.
+     👉 To access an array's elements individually, you need to take input in array one by one.
+     👉 To make the code more refined, make functions.
+     👉 For better code, visualize the situation given in the question.
+     👉 It's better to code slow than to code fast.
