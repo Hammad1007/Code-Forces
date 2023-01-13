@@ -1,5 +1,7 @@
-floc = int(input())
-steps = 0
+# https://codeforces.com/problemset/problem/617/A
+
+floc = int(input())   # friend location
+steps = 0             # no of steps
 if floc <= 0:
   print("Invalid position of the friend.\n")
 else:
