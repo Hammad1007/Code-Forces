@@ -2,6 +2,8 @@
 
 a = []      # empty array list
 sum = 0     # stores the sum of array elements in it
+
+# element number in array
 n = int(input("Number of elements in array:"))
 for i in range(0,n):
    l = int(input())

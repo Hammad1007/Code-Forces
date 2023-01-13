@@ -2,6 +2,7 @@
 
 n = int(input("Enter the test cases: "))
 
+# while loop to start the test cases
 while n > 0:
   r = int(input("Enter the rating value: "))
   if r < -5000 or r > 5000:
