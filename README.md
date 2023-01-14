@@ -28,4 +28,7 @@ We will be solving maximum number of questions available on the website. The mai
      👉 For better code, visualize the situation given in the question.
      👉 It's better to code slow than to code fast.
      👉 Always understand the question before attempting it.
+     👉 The main aim should be to build logic.
+     👉 The code should be readable and understandable. 
+     👉 Do make use of comments but excessive commenting can disrupt the structure of the code
       
