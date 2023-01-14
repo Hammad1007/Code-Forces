@@ -1,1 +1,1 @@
-// 
+// https://codeforces.com/problemset/problem/1692/A
