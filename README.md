@@ -21,6 +21,7 @@ We will be solving maximum number of questions available on the website. The mai
  <img src="https://miro.medium.com/max/256/0*zNcjWYiZcJgreZAs.png"  title="Colab" alt="Googlecolab" width="60" height="52"/>&nbsp;
  <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg"  title="VS" alt="VS" width="40" height="40"/>&nbsp;
 
+
 ### :mag: Observations and Suggestions
      👉 To write a code from C++ to C or vice versa, changing the library files and inputoutput is not sufficient.
      👉 To access an array's elements individually, you need to take input in array one by one.
