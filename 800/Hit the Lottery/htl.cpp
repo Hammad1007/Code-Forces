@@ -23,27 +23,26 @@ int main() {
     int arr[6] = {1, 5, 10, 20, 50, 100};
     int diffarr[6], count = 0;
     while(n != 1 || n != 5 || n != 10 || n != 20 || n != 50 || n != 100 ) {
-        if(n == 1 || n == 5 || n == 10 || n == 20 || n == 50 || n == 100) {
+        for(int i = 0; i < 6; i++) {
+            diffarr[i] = n - arr[i];
+            if(diffarr[i] < 0) {
+                diffarr[i] = INT_MAX;
+            }
+        }
+        cout << "The difference array is: ";
+        for(int i = 0; i < 6; i++) {
+            cout << diffarr[i] << " ";
+        }
+        cout << "\n";
+        int temp = n - Minimum(arr);
+        int flag = n / temp;
+        count = count + flag;
+        n = n - flag * (n - Minimum(arr));
+    }
+    
+    if(n == 1 || n == 5 || n == 10 || n == 20 || n == 50 || n == 100) {
             count = count + 1;
         }
-        else {
-            for(int i = 0; i < 6; i++) {
-                diffarr[i] = n - arr[i];
-                if(diffarr[i] < 0) {
-                    diffarr[i] = INT_MAX;
-                }
-            }
-            cout << "The difference array is: ";
-            for(int i = 0; i < 6; i++) {
-                cout << diffarr[i] << " ";
-            }
-            cout << "\n";
-            int temp = n - Minimum(arr);
-            int flag = n / temp;
-            count = count + flag;
-            n = n - flag * (n - Minimum(arr));
-        }
-    }
-    cout << "The minimum of denominations are: " << count << endl;
+    cout << "The minimum of denominations are: " << count << enl;
     return 0;
 }
