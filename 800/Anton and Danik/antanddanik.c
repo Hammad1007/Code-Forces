@@ -1,6 +1,5 @@
 // https://codeforces.com/problemset/problem/734/A
 #include <stdio.h>
-
 // Main driver here
 int main() {
     int n, countA = 0, countD = 0;      // countA = count of A, countD = count of Danik
