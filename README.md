@@ -32,4 +32,5 @@ We will be solving maximum number of questions available on the website. The mai
      👉 The main aim should be to build logic.
      👉 The code should be readable and understandable. 
      👉 Do make use of comments but excessive commenting can disrupt the structure of the code
+     👉 Always go for an easy built logic.
       
