@@ -2,7 +2,7 @@
 
 Codeforces is a website that hosts competitive programming contests. 
 
-We will be solving maximum number of questions available on the website. The main purpose behind this is to build my problem solving skill and apply that skill to solve the daily life problems. Moreover, the purpose behind writing the codes in multiple languages is to make my grip firm on different programming languages and get exposure to various IDEs and coding environments. Also, the aim of this repository is to help the students with problem solving and provide them logical solutions to the problems.
+We will be solving maximum number of questions available on the website. The main purpose behind this is to build my problem solving skill and apply that skill to solve the daily life problems. The purpose behind writing the codes in multiple languages is to learn different programming languages and get exposure to various IDEs and coding environments. Also, the aim of this repository is to help the students with problem solving and provide them logical solutions to the problems.
 
 **Contributors**
 
@@ -32,4 +32,5 @@ We will be solving maximum number of questions available on the website. The mai
      👉 The main aim should be to build logic.
      👉 The code should be readable and understandable. 
      👉 Do make use of comments but excessive commenting can disrupt the structure of the code
+     👉 Always go for an easy built logic.
       

@@ -1,4 +1,5 @@
 # https://codeforces.com/problemset/problem/61/A
+
 size = int(input("Enter the size: "))
 n = []
 x = []
