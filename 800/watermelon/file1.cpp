@@ -2,7 +2,6 @@
 
 #include <iostream>
 using namespace std;
-
 int main() {
     int w;
     cout << "Enter the weight of the watermelon: ";
