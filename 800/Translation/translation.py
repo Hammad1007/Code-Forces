@@ -1,6 +1,6 @@
 # https://codeforces.com/problemset/problem/41/A
 
-a = []
+a = []      # empty list
 temp = []
 
 n = int(input("Enter the size: " ))
