@@ -1,6 +1,6 @@
 # https://codeforces.com/problemset/problem/282/A
 
-a = []
+a = []  # empty list
 x = 0
 n = int(input("Enter the number: "))
 for i in range(0, n):
