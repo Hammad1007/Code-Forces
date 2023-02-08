@@ -9,5 +9,5 @@ while i < n:
   if n % i == 0:
     count = count + 1
   i = i + 1
-print("The minimum numebr is: ", count)
+print("The minimum number is: ", count)
 
