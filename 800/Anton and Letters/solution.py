@@ -1,6 +1,6 @@
 # https://codeforces.com/problemset/problem/443/A
 
-a = []
+a = []    # empty list
 count = 0
 n = int(input("Enter the size of characters in the array: "))
 for i in range(n):
