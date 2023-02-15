@@ -9,7 +9,7 @@ def compare(s):
     else:
       print("No.\n")
 
-n = int(input())
+n = int(input())    # Enter the number of cases you want to deal
 for i in range(n):
   temp = input()
   compare(temp)
