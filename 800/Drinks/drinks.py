@@ -17,3 +17,4 @@ temp = n * 100
 val = sum % temp
 val1 = val / n
 print("Percentage: ", val1)      # calculate the percentage
+
