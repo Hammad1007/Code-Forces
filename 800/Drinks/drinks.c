@@ -27,3 +27,4 @@ int main() {
     printf("Percentage: %f", ans1);
     return 0;
 }
+
