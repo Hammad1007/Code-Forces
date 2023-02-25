@@ -3,16 +3,16 @@
 n = int(input("Enter the size: "))
 print("The size is: ", n)
 
-countA = 0
-countD = 0
-a = []
+countA = 0    # count of A in array
+countD = 0    # count of D in array
+a = []        # empty array
+
+# for loop
 for i in range(n):
   l = input()
   if l == "A":
-    #capitalize()
     countA = countA + 1
   if l == "D":
-    #capitalize()
     countD = countD + 1
   a.append(l)
 
