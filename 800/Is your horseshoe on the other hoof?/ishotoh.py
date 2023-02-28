@@ -15,3 +15,4 @@ for i in range(0, 4, 1):
       count = count + 1
 
 print("The minimum number of steps are: ", count)
+
