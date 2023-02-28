@@ -26,6 +26,7 @@ for i in range(r):
 print("Count of colored pixels: ", cc)
 print("Count of black and white and gray pixels: ", cb)
 
+# conditions to detrmine if black or color
 if cc > cb and cb == 0:
   print("#Color.\n")
 elif cc < cb and cc == 0:
