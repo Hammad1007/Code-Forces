@@ -12,3 +12,4 @@ for i in range(0, n - 1, 1):
   if b[i] != b[i + 1]:
     count = count + 1
 print("Count is: ", count + 1)
+
